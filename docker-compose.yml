@@ -1,0 +1,6 @@
+services:
+  main:
+    build: .
+    volumes:
+      - .:/main
+    network_mode: "host"
